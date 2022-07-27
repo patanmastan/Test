@@ -11,7 +11,7 @@ public class StudentDemoApplication {
 		SpringApplication.run(StudentDemoApplication.class, args);
 	}
 	
-	
+	// comment
 	@GetMapping("/msg")
 	public String msg() {
 		return "Hi ! everyone";
